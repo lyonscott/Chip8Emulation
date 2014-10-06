@@ -22,6 +22,7 @@ public:
     void                Draw();
     bool                LoadROM(const char* file_name);
     
+    bool                        inited;
     bool                        flag_draw;
     unsigned char               buffer_gfx[64 * 32];
     unsigned char               buffer_scene[64][32][3];

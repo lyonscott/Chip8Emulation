@@ -71,7 +71,7 @@ void Chip8Emulation::Init()
     for(int y=0;y<32;++y)
         for(int x=0;x<64;++x)
             buffer_scene[y][x][0]=buffer_scene[y][x][1]=buffer_scene[y][x][2]=0;
-    
+    inited=true;
     printf("Emulation Inited!\n");
 }
 
